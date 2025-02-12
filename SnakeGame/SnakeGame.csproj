@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="System.Windows.Extensions" Version="5.0.0" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <None Remove="mixkit-retro-arcade-game-over-470.wav" />
+    <None Remove="Sound.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sound.wav" />
+  </ItemGroup>
+
+</Project>
