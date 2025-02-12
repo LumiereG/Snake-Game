@@ -39,6 +39,4 @@ namespace SnakeGame
         // Method to create a new position by moving downward by 'n' steps
         public Position DownBy(int n) => new Position(Top + n, Left);
     }
-
-
 }
